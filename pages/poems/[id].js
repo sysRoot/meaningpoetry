@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import MetaTags from "react-meta-tags";
 
 import { Card, CardHeader, CardBody, Container, Row, Col } from "reactstrap";
-import "./poem.css";
+import "./Poem.module.css";
 const Poem = props => {
     const router = useRouter();
 
